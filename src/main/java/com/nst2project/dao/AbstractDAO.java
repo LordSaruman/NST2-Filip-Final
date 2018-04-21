@@ -8,6 +8,7 @@ package com.nst2project.dao;
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 
+
 /**
  *
  * @author filip
@@ -20,6 +21,5 @@ public abstract class AbstractDAO<PK extends Serializable, T>{
         this.persisClass = (Class<T>) ((ParameterizedType) this.getClass().getGenericSuperclass())
                 .getActualTypeArguments()[1];
     }
-    
     
 }

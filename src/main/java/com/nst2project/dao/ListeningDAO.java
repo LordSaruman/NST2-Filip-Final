@@ -14,7 +14,7 @@ import java.util.List;
  *
  * @author filip
  */
-public interface ListeningDAO {
+public interface ListeningDAO{
 
     Listening findById(Integer id);
 

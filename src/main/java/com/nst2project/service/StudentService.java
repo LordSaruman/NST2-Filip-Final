@@ -3,20 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.nst2project.impl.dao;
+package com.nst2project.service;
 
-import com.nst2project.dao.AbstractDAO;
-import com.nst2project.dao.ListeningDAO;
-import com.nst2project.model.Listening;
 import com.nst2project.model.Student;
-import com.nst2project.model.Subject;
 import java.util.List;
 
 /**
  *
  * @author filip
  */
-public class ListeningDAOimpl{
+public interface StudentService {
 
-    
+    Student findById(int id);
+
+    List<Student> findAllStudents();
+
+    void saveStudent(Student student);
+
+    void updateStudent(Student dbStudent, Student student);
+
+    void deleteStudentById(int id);
 }
