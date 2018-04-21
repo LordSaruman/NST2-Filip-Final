@@ -21,6 +21,31 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+        
+        <!-- Spring Dependecies -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>2.0.1.RELEASE</version>
+        </dependency>
+
+        
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.0.1.RELEASE</version>
+        </dependency>
+
+        
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>2.0.1.RELEASE</version>
+        </dependency>
+
          
         <!-- Bootfaces -->
         <dependency>
@@ -43,6 +68,15 @@
             <artifactId>bootstrap</artifactId>
             <version>4.1.0</version>
         </dependency>
+        
+        <!-- HIBERNATE -->
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.2.16.Final</version>
+        </dependency>
+
 
     </dependencies>
 
